@@ -1,6 +1,6 @@
 import { css } from "@emotion/react";
 import { useRef } from "react";
-
+import { toast } from "react-toastify";
 interface AppProps {
   name: string;
 }
@@ -40,6 +40,7 @@ const InstallBox = ({ text }: InstallBoxProps) => {
     selection.removeAllRanges();
     selection.addRange(range);
     navigator.clipboard.writeText(node.textContent ?? "");
+    toast.success("Successfully copied.");
   };
   return (
     <div
