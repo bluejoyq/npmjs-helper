@@ -1,5 +1,5 @@
-import { createRoot } from 'react-dom/client';
-import { App } from './App';
+import { createRoot } from "react-dom/client";
+import { App } from "./App";
 
 const getNode = () => {
   const h3Elements = document.querySelectorAll("h3"); // 모든 <h3> 요소를 선택합니다.
@@ -12,12 +12,9 @@ const getNode = () => {
       }
     }
   }
-
-
-}
-const node = getNode()!
-node.parentElement?.insertBefore(node.cloneNode(true),node);
+};
+const node = getNode()!;
+node.parentElement?.insertBefore(node.cloneNode(true), node);
 const root = createRoot(node);
 
-root.render(<App />)
-
+root.render(<App />);
