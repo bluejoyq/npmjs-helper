@@ -4,12 +4,13 @@
     "description": "This extension adds the functionality you need for NPMJS website.",
     "version": "1.0.0",
     "action": {
-        "defaulut_icon": "public/icon-256.png"
+        "defaulut_icon": "public/icon-128.png"
     },
     "icons": {
         "16": "public/icon-16.png",
         "32": "public/icon-32.png",
         "64": "public/icon-64.png",
+        "48": "public/icon-48.png",
         "128": "public/icon-128.png"
     },
     "content_scripts": [
