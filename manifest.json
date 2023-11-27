@@ -9,7 +9,7 @@
                 "https://www.npmjs.com/*"
             ],
             "js": [
-                "content-scripts/main.tsx"
+                "content-scripts/src/main.tsx"
             ]
         }
     ]
