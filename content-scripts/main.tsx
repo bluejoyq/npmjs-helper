@@ -14,7 +14,6 @@ const getNode = () => {
   }
 };
 const node = getNode()!;
-node.parentElement?.insertBefore(node.cloneNode(true), node);
 const root = createRoot(node);
-
-root.render(<App />);
+const name = node.querySelector("code")?.innerText.split(" ")[2] ?? "";
+root.render(<App name={name} />);
