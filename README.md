@@ -11,4 +11,5 @@ Previously, you could only copy an installation with the npm command, which was 
 By giving you options from all three popular package managers, you don't have to tinker with commands anymore!
 
 ## Install
-soon
+install now!
+https://chromewebstore.google.com/detail/npmjs-helper/fompbccaaaoggeadfneabngjjnnanjmc

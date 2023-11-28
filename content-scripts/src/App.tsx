@@ -15,7 +15,7 @@ export const App = ({ name }: AppProps) => {
       `}
     >
       <InstallBox text={`npm i ${name}`} />
-      <InstallBox text={`yarn i ${name}`} />
+      <InstallBox text={`yarn add ${name}`} />
       <InstallBox text={`pnpm i ${name}`} />
     </div>
   );
